@@ -7,7 +7,7 @@
 appearance:
   mode: system
   color: emerald
-  font_size: m
+  font_size: s
 
 # SEO
 marketing:
