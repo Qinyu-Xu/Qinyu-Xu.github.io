@@ -43,7 +43,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'tactic.pdf'
+url_pdf: 'https://qinyu-xu.github.io/tactic.pdf'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

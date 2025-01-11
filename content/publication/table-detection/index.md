@@ -34,7 +34,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: OpenTE.pdf 
+url_pdf: https://qinyu-xu.github.io/OpenTE.pdf 
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: '#'
 # url_poster: '#'
