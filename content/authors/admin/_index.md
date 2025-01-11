@@ -49,68 +49,38 @@ education:
     date_end: 2025-07-01
     summary: |
       GPA: 3.93/4.00
-  - area: Undergraduate Research Intern
-    institution: University of Washington
+
+work:
+  - position: Undergraduate Research Intern 
+    company_name: Microsoft Research (Asia)
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-07-01
+    date_end: 2024-01-01
+    summary: |
+      - Proposed a new dataset and developed Novel IEG Framework for Open-Structure Table Detection; Work published at ICASSP'24;
+      - Developed a framework combining LLM and small models for Table Extraction in Spreadsheet.
+
+  - position: Undergraduate Research Intern
+    company_name: University of Washington
+    company_url: ''
+    company_logo: ''
     date_start: 2024-06-15
     date_end: 2024-10-01
     summary: |
-      Undergraduate Research Intern
+      - Collaborated on the NanoFlow project with Prof. Baris Kasikci, focusing on high-throughput LLM serving and memory management optimization.
+      - Designed and implemented a forward-looking scheduler to predict and optimize memory usage, reducing out-of-memory issues and improving batching efficiency.
+      - Proposed and led an independent research project on adaptive KV cache management for long-context LLM inference, achieving significant memory savings while maintaining performance.
 
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Welcome to my homepage! I am a final-year undergraduate student at Tsinghua University, majoring in Computer Science and Engineering.
+
+I am passionate about advancing efficient and resource-conserving machine learning systems for real-world applications. My research interests include bridging the gap between cutting-edge machine learning models and the system-level innovations needed to make them practical. 
+
+During my undergraduate studies, I worked with Haoyu Dong at Microsoft Research Asia (MSRA), where I developed a benchmark dataset as well as a novel framework for open-structure table extraction tasks, later published at ICASSP'24. At the University of Washington, I collaborated with Prof. Baris Kasikci on the NanoFlow project, designing a forward-looking scheduler to optimize memory management in high-throughput LLM serving. Currently, I am working on an independent research project at UW, focusing on adaptive KV cache management for long-context LLMs, developing a novel approach to reduce memory usage without compromising performance. These experiences significantly enhanced my technical expertise and inspired my commitment to addressing system-level challenges in machine learning, shaping my vision for creating efficient and scalable frameworks in real-world applications.
+
+I am seeking a PhD position for Fall 2025. Feel free to reach out to me at qinyu.quentin.xu@gmail.com. I’m always happy to connect!
+
 {style="font-size: 1rem;"}

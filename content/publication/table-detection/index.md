@@ -1,8 +1,12 @@
 ---
-title: "An example preprint / working paper"
+title: "OPENTE: OPEN-STRUCTURE TABLE EXTRACTION FROM TEXT"
 authors:
+- Haoyu Dong
+- Mengkang Hu
 - admin
-date: "2019-04-07T00:00:00Z"
+- Haochen Wang
+- Yue Hu
+date: "2024-04-07T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -17,27 +21,27 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: "This paper presents an Open-Structure Table Extraction(OpenTE) task, which aims to extract a table with intrinsic semantic, calculational, and hierarchical structure from unstructured text. We devise a novel Identification-Extraction-Grounding (IEG) framework for language models (LMs) comprising three chaining steps: (1) identifying semantic and calculational relationships among columns, (2) extracting structured data from unstructured text, and (3) aligning extracted data with the source text and the table structure with a separate discrete grounding model. Experiment results suggest that OpenTE presents a significant challenge for state-of-the-art LMs and demonstrate that the IEG framework achieves superior performance on both datasets, with over 9% F1 improvements in the few-shot setting for GPT-3.5&4 and other large language models (LLMs) and over 4.9% F1 enhancements in the fine-tuning setting for open-source BART."
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - Large Language Models
 
 featured: true
 
-links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+# links:
+# - name: Custom Link
+#   url: http://example.org
+url_pdf: OpenTE.pdf 
+# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_dataset: '#'
+# url_poster: '#'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
